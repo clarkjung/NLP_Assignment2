@@ -1,16 +1,11 @@
 Natural Language Process Assignment 2
+=====================
 
-Task1: Text Classfication
+Natural Language Process Assignment 2
 
-Calculate the perplexity of the corpus
-Split in training (90%) and test (10%) sets
-Randomly and per document
-Build a language model using the training set (Maximum Likelihood, bigram)
-Use Laplace (Add-one) smoothing for the zero probabilities Estimate probabilities on the test set
-Task2: Part-of-speech tagging
-
-Calculate precision for the corpus
-Split in training (90%) and test (10%) sets
-Randomly and per document
-Learn the model using the training set (Hidden Markov Model, bigram)
-Predict POS tags for the test set
+Task1: Text Classification
+* Ohsumed corpus (20,000 documents)
+  - http://disi.unitn.it/moschitti/corpora.htm
+  - Split in training and test datasets
+  - 23 diseases/categories
+* Multi-class classification
